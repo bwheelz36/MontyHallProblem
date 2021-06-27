@@ -9,9 +9,7 @@ class MontyHall:
 
         self.Nexperiments = 1000  # how many times to repeat experiment
 
-        # initialise variables to keep track of what happens
-        self.GotCar = 0
-        self.GotCamel = 0
+
 
         # set up some axes for plotting on later
         fig, (self.axs1, self.axs2) = plt.subplots(ncols=2, nrows=1, figsize=(10, 5))
@@ -42,6 +40,9 @@ class MontyHall:
         camel each time. The parameter to switch guesses (or not) is set in the __init__ function.
         :return:
         """
+        # initialise variables to keep track of what happens
+        self.GotCar = 0
+        self.GotCamel = 0
 
         for i in range(self.Nexperiments):
             self.SetUpDoors()  # each time set the doors up differently
