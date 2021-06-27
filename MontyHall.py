@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 class MontyHall:
 
     def __init__(self):
-        # method is executed every time an instance of this class is created (see the if __name__ == '__main__' block
+        # this method is executed every time an instance of this class is created (see the if __name__ == '__main__' block
         # at the bottom of this code
 
         self.Nexperiments = 1000  # how many times to repeat experiment
@@ -37,6 +37,11 @@ class MontyHall:
         self.Doors[door_ind] = 'car'
 
     def RunExperiment(self):
+        """
+        Run through the problem self.Nexperiments times, keeping track of whether the contestant got a car or a
+        camel each time. The parameter to switch guesses (or not) is set in the __init__ function.
+        :return:
+        """
 
         for i in range(self.Nexperiments):
             self.SetUpDoors()  # each time set the doors up differently
@@ -72,6 +77,10 @@ class MontyHall:
         self.GotCamel = self.GotCamel * 100 / self.Nexperiments
 
     def PlotResults(self):
+        """
+        Create a simple bar plot of the results
+        :return:
+        """
 
         if self.SwitchGuess == True:
             self.axs1.bar(['Got car', 'got camel'],[self.GotCar,self.GotCamel])
