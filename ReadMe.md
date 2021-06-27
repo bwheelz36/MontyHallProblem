@@ -8,7 +8,7 @@ The intuitive (but incorrect) answer is that it makes no difference whether you 
 
 The actual answer is that you should always switch; when you switch, you have a 2/3 chance of getting the car, and when you don't you have a 1/3 chance of getting the car.
 
-![](C:\Users\Brendan\Documents\python\MontyHall\Result.png)
+![](Result.png)
 
 
 
@@ -26,7 +26,7 @@ Consider the three initial guesses below. If you DID choose a car, then by switc
 
 ## how to use:
 
-Basically just press go to reproduce the figure above. The only non standard library is matplotlib for plotting. 
+Basically just press run MontyHall.py to reproduce the figure above. The only non standard library is matplotlib for plotting. 
 
 
 
