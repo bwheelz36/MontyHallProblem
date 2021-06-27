@@ -2,7 +2,7 @@
 
 This code runs an experimental verification of the [Monty Hall brain teaser](https://en.wikipedia.org/wiki/Monty_Hall_problem), which is rephrased below:
 
-*Suppose you're on a game show, and you're given the choice of three  doors: Behind one door is a car; behind the others, goats. You pick a  door, say No. 1, and the host, who knows what's behind the doors, opens  another door, say No. 3, which has a goat. He then says to you, "Do you  want to pick door No. 2?" Is it to your advantage to switch your choice?*
+*Suppose you're on a game show, and you're given the choice of three  doors: Behind one door is a car; behind the others, camels. You pick a  door, say No. 1, and the host, who knows what's behind the doors, opens  another door, say No. 3, which has a camel. He then says to you, "Do you  want to pick door No. 2?" Is it to your advantage to switch your choice?*
 
 The intuitive (but incorrect) answer is that it makes no difference whether you switch or not: the odds of getting a car are 50/50.
 
