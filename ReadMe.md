@@ -11,7 +11,7 @@ The actual answer is that you should always switch*; when you switch, you have a
 * assuming you want a car and not a camel.
 
 ![](Result.png)
-
+_Figure 1: results of running experiment 1000 times switching and 1000 times not switching_
 
 ## But why!!?
 
