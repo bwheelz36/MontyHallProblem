@@ -23,6 +23,7 @@ The host is not choosing their guesses randomly, but is being informed by both y
 | Car           | 0                                 | 1                                       |
 | camel         | 1                                 | 0                                       |
 | camel         | 1                                 | 0                                       |
+_Table 1: If you switch you have a 2/3 chance of getting the car, if you don't you have a 1/3 chance_
 
 ## how to use:
 
