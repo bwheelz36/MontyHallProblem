@@ -6,27 +6,29 @@ This code runs an experimental verification of the [Monty Hall brain teaser](htt
 
 The intuitive (but incorrect) answer is that it makes no difference whether you switch or not: the odds of getting a car are 50/50.
 
-The actual answer is that you should always switch; when you switch, you have a 2/3 chance of getting the car, and when you don't you have a 1/3 chance of getting the car.
+The actual answer is that you should always switch*; when you switch, you have a 2/3 chance of getting the car, and when you don't you have a 1/3 chance of getting the car.
 
-![](C:\Users\Brendan\Documents\python\MontyHall\Result.png)
+* assuming you want a car and not a camel.
 
-
+![](Result.png)
+_Figure 1: results of running experiment 1000 times switching and 1000 times not switching_
 
 ## But why!!?
 
-Remember the host is not choosing their door randomly; they know more about the situation then the contestant, and **always** choose a door with a goat, and **never** choose the door that the contestant chose. This means the door they didn't change is more likely than not to have a car.
+The host is not choosing their guesses randomly, but is being informed by both your initial decision and their existing knowledge of which door has a car behind it. **If you switch, you will <u>always</u> end up getting the opposite of what you first guessed**. Since you are twice as likely to have first guessed a goat, you are twice as likely to end up with a car if you switch; see table below.
 
-Consider the three initial guesses below. If you DID choose a car, then by switching your guess you will always lose. If you didn't choose a car, by switching your guess you will always win. The key thing to note is that you are twice as likely to have initially chosen a goat as a car; therefore it is always in your interests to switch.
 
 | Initial guess | Odds of getting car if you switch | Odds of getting car if you don't switch |
 | ------------- | --------------------------------- | --------------------------------------- |
 | Car           | 0                                 | 1                                       |
-| Goat          | 1                                 | 0                                       |
-| Goat          | 1                                 | 0                                       |
+| camel         | 1                                 | 0                                       |
+| camel         | 1                                 | 0                                       |
+
+_Table 1: If you switch you have a 2/3 chance of getting the car, if you don't you have a 1/3 chance_
 
 ## how to use:
 
-Basically just press go to reproduce the figure above. The only non standard library is matplotlib for plotting. 
+Basically just press run MontyHall.py to reproduce the figure above. The only non standard library is matplotlib for plotting. 
 
 
 
