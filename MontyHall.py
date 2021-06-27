@@ -76,6 +76,14 @@ class MontyHall:
         # convert number of times they got something percentages:
         self.GotCar = self.GotCar * 100 / self.Nexperiments
         self.GotCamel = self.GotCamel * 100 / self.Nexperiments
+        self.CheckResults()
+
+    def CheckResults(self):
+        """
+        They should run up 100
+        :return:
+        """
+        assert self.GotCar + self.GotCamel == 100
 
     def PlotResults(self):
         """
