@@ -15,7 +15,7 @@ _Figure 1: results of running experiment 1000 times switching and 1000 times not
 
 ## But why!!?
 
-The host is not choosing their guesses randomly, but is being informed by both your initial decision and their existing knowledge of which door has a car behind it. **If you switch, you will <u>always</u> end up getting the opposite of what you first guessed**. Since you are twice as likely to have first guessed a goat, you are twice as likely to end up with a car if you switch; see table below.
+The host is not choosing their guesses randomly, but is being informed by both your initial decision and their existing knowledge of which door has a car behind it. **If you switch, you will <u>always</u> end up getting the opposite of what you first guessed**. Since you are twice as likely to have first guessed a camel, you are twice as likely to end up with a car if you switch; see table below.
 
 
 | Initial guess | Odds of getting car if you switch | Odds of getting car if you don't switch |
